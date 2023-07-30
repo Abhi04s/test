@@ -1,12 +1,3 @@
-# from functools import reduce
-# numbers=[2,4,5,6,8]
-
-# def Mysum(a,b):
-#     return a+b
-# sum=reduce(Mysum,numbers)
-# print(sum)
-
-
 import logging
 
 def log_function_call(func):
@@ -20,4 +11,4 @@ def log_function_call(func):
 @log_function_call
 def my_function(a, b):
     return a + b
-
+my_function(2,2)
